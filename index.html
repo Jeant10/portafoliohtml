@@ -13,11 +13,14 @@
 </head>
 
 <body>
+    <!-- Inicio cabecera -->
     <header>
         <h1>Jean Tituaña - <span>Desarrollador Frontend</span></h1>
     </header>
+    <!-- Fin cabecera -->
     <hr>
     <div class="nav-bg">
+        <!-- Inicio menu de navegacion -->
         <nav class="navegacion - principal contenedor">
             <a href="#sobre-mi">Sobre mi</a>
             <a href="#Servicios">Servicios</a>
@@ -26,10 +29,12 @@
             <a href="#Referencias">Referencias</a>
             <a href="#Contacto">Contacto</a>
         </nav>
+        <!-- Fin menu de navegacion -->
     </div>
     <hr>
-    <section class="hero" id="sobre-mi">
-        <div class="contenido-hero">
+    <!-- Inicio seccion presentacion realizado por Tituaña Jean -->
+    <section class="presentacion" id="sobre-mi">
+        <div class="contenido-presentacion">
             <h2>Desarrollador Frontend y <span>Freelancer</span></h2>
             <img src="src/foto.jpg" alt="foto">
             <div>
@@ -43,9 +48,11 @@
             <a href="https://github.com/Jeant10" class="botton">jeant10</a>
         </div>
     </section>
+    <!-- Inicio seccion presentacion -->
     <hr>
     <main class="contenedor sombra" id="portafolio">
         <hr>
+        <!-- Inicio seccion servicios realizado por Moposita Ariel -->
         <section id="Servicios">
             <h2>Mis servicios</h2>
             <div class="servicios">
@@ -63,8 +70,10 @@
                 </section>
             </div>
         </section>
+        <!-- Final seccion servicios -->
         <hr>
         <hr>
+        <!-- Inicio seccion Eduaacion realizado por Joel Tates-->
         <section id="Educacion">
             <h2>Educacion</h2>
             <div class="estudios">
@@ -86,8 +95,10 @@
                 </div>
             </div>
         </section>
+        <!-- Final seccion Eduacion -->
         <hr>
         <hr>
+        <!-- Final seccion Habilidades realizado por Edison Rivera-->
         <section id="Habilidades">
             <h2>Habilidades</h2>
             <div class="habilidades">
@@ -127,8 +138,10 @@
                 </section>
             </div>
         </section>
+        <!-- Final seccion habilidades -->
         <hr>
         <hr>
+        <!-- Inicio seccion referencias Realizado por Estela Chipantasi-->
         <section id="Referencias">
             <h2>Referencias</h2>
             <div class="referencias">
@@ -160,37 +173,35 @@
                 </div>
             </div>
         </section>
+        <!-- Final seccion referencias -->
         <hr>
         <hr>
+        <!-- Inicio seccion contacto Cangahuamin Katherine -->
         <section id="Contacto">
-            <h2>Contacto</h2>
-            <form class="Formulario">
-                <fieldset>
-                    <legend>Contestame llenando los campos</legend>
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <label>Nombre: </label>
-                            <input type="text" placeholder="tu nombre" class="input-text" />
-                        </div>
-                        <div class="campo">
-                            <label>Telefono: </label>
-                            <input type="tel" placeholder="tu telefono" class="input-text" />
-                        </div>
-                        <div class="campo">
-                            <label>Correo: </label>
-                            <input type="email" placeholder="tu email" class="input-text" />
-                        </div>
-                        <div class="campo">
-                            <label>Mensaje: </label>
-                            <textarea class="input-text"></textarea>
-                        </div>
-                    </div>
-                    <div class="alinear derecha flex">
-                        <input type="submit" value="enviar" class="boton- w-sm-100" />
-                    </div>
-                </fieldset>
+            <h2> Contactame ! </h2>
+            <form action="https://formsubmit.co/correprueba02@gmail.com" method="POST">
+                <input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Nombre sólo acepta letras y espacios en blanco" 
+                required>
+                
+                <br>
+        
+                <input type="email" name="correo" placeholder="Escribe tu correo" required>
+        
+                <br>
+                
+                <textarea name="comentarios" cols="90" rows="10" required></textarea>
+                
+                <br>
+        
+                <input type="submit">
             </form>
+            <div class="imagen-container">
+                <div class="imagen-box">
+                    <img src="src/logo_correo.png">
+                </div>
+            </div>
         </section>
+        <!-- Final seccion contacto -->
     </main>
     <footer class="footer">
         <hr>
